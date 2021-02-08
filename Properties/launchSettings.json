@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "KafkaConsumer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "KC_KafkaSettings__SaslPassword": "secret",
+        "KC_KafkaSettings__SaslUsername": "upperfunnel",
+        "KC_KafkaSettings__ConsumerGroup": "KafkaConsumerTestGroup_2",
+        "KC_KafkaSettings__SecurityProtocol": "SASL_SSL",
+        "KC_KafkaSettings__Enabled": "true",
+        "KC_KafkaSettings__SaslMechanisms": "PLAIN",
+        "KC_KafkaSettings__TopicName": "upper_funnel_fbca_dev_1",
+        "KC_KafkaSettings__CaLocation": "Configuration/ca-cert",
+        "KC_KafkaSettings__Url": "kafka-dev.888holdings.corp:9103"
+      },
+      "remoteDebugEnabled": false
+    }
+  }
+}
