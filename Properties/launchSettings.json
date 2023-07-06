@@ -10,7 +10,7 @@
         "KC_KafkaSettings__Enabled": "true",
         "KC_KafkaSettings__SaslMechanisms": "PLAIN",
         "KC_KafkaSettings__TopicName": "*********",
-        "KC_KafkaSettings__CaLocation": "Configuration/ca-cert",
+        "KC_KafkaSettings__CaLocation": "*********",
         "KC_KafkaSettings__Url": "*********:9103"
       },
       "remoteDebugEnabled": false
